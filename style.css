@@ -1,0 +1,93 @@
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+}
+
+body {
+	background-color: #0F172A;
+	/*font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";*/
+    font-size: 16px;
+	margin: 0 0 0 418px; /* margen superior, derecho, inferior e izquierdo respectivamente */
+    height: 3716.970px;
+    max-width: 1000px; /* ajusta el ancho máximo del contenido dentro del margen */
+    margin: 0 auto; /* centra el contenido horizontalmente dentro del margen */
+	padding: 0;
+    line-height: inherit;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #0F172A;
+	padding: 10px;
+}
+
+.logo img {
+	height: 200px;
+    color: #FFFF;
+
+}
+
+nav {
+    display: flex;
+    /*max-width: calc(100% - 20px); /* Establece un ancho máximo para la barra de navegación */
+    /*padding-right: 20px; /* Aplica un relleno al contenedor de la barra de navegación para ajustar el borde */
+    
+  }
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+    
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+    font-weight: bold;
+	color: #E5E7EB;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #9b59b6;
+}
+
+main {
+	margin: 0 auto;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 36px;
+	text-align: left;
+	color: #fff;
+}
+
+.texto {
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.redes-sociales {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.redes-sociales img {
+	height: 30px;
+	margin-right: 10px;
+}
+
+.imagen-tienda img {
+	margin-top: 20px;
+}

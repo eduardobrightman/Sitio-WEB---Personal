@@ -1,182 +1,38 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Título de nuestro sitio, en este caso es "Sitio - EduardoGM"-->
-    <title>Sitio - EduardoGM</title>
-    
-    <!-- Llamamos a nuestro archivo css-->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preload" href="css/styles.css" as="style">
+<html>
 
+<head>
+	<title>Music Store</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
     <!-- Colocamos un ícono a la pestañita del navegador al abrir nuestor sitio-->
-    <link rel="shortcut icon" href="img/internet.png" type="image/x-icon">
-    
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
 </head>
 <body>
-    <!-- La etiqueta header se utiliza para definir el encabezado, que contiene 
-    elementos como el logotipo, el título o la barra de navegación-->
-    <header>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Acerca de</a>
-            <a href="#">Portafolio</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contacto</a>
-        </nav>
-        <!-- Las "section" nos sirven para dividir la información por encabezado, contenido o pie de página-->
-        <section class="textos-header">
-            <h1>Potencia tus ventas al menos un 200%</h1>
-            <h2>Con una página web potente</h2>
-        </section>
-        <!-- Las clases son un atributo que encierra a varios elementos para manipularlos
-        mediante css o javascript-->
-        <div class="equalizer_image">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#142040" fill-opacity="1" d="M0,192L0,64L45,64L45,288L90,288L90,160L135,160L135,256L180,256L180,64L225,64L225,128L270,128L270,128L315,128L315,256L360,256L360,32L405,32L405,160L450,160L450,96L495,96L495,256L540,256L540,0L585,0L585,256L630,256L630,160L675,160L675,192L720,192L720,128L765,128L765,32L810,32L810,64L855,64L855,256L900,256L900,256L945,256L945,128L990,128L990,224L1035,224L1035,0L1080,0L1080,288L1125,288L1125,32L1170,32L1170,224L1215,224L1215,192L1260,192L1260,32L1305,32L1305,96L1350,96L1350,192L1395,192L1395,192L1440,192L1440,320L1395,320L1395,320L1350,320L1350,320L1305,320L1305,320L1260,320L1260,320L1215,320L1215,320L1170,320L1170,320L1125,320L1125,320L1080,320L1080,320L1035,320L1035,320L990,320L990,320L945,320L945,320L900,320L900,320L855,320L855,320L810,320L810,320L765,320L765,320L720,320L720,320L675,320L675,320L630,320L630,320L585,320L585,320L540,320L540,320L495,320L495,320L450,320L450,320L405,320L405,320L360,320L360,320L315,320L315,320L270,320L270,320L225,320L225,320L180,320L180,320L135,320L135,320L90,320L90,320L45,320L45,320L0,320L0,320Z"></path></svg>
-            </div>
-            
-    </header>
-    <main>
-        <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Nuestro producto</h2>
-            <div class="contenedor sobre-nosotros">
-                <!-- La etiqueta ALT en IMG es para darle descripción a la imagen-->
-                <img src="img/C_A24XGVwAAkmUv.jpg_large" alt="">
-                <div class="contenido-textos"></div>
-                    <!-- SPAN es para aplicar CSS a una sección específica del texto-->
-                    <h3><span>1</span>La mejor revista dedicada al análisis de la calidad musical.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consequuntur quas molestiae voluptas aut recusandae ab quidem dignissimos error eum sunt, fugit officiis eius tempore sed eligendi odit sequi asperiores.</p>
-                    <h3><span>2</span>Calificamos con estrellas.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, earum qui sapiente quasi accusamus blanditiis eligendi minus saepe soluta consectetur? Nisi asperiores magni assumenda aliquam ipsa nihil saepe ipsam itaque.</p>
-                </div>
-            </div>
-        </section>
-        <section class="Portafolio">
-            <div class="contenedor">
-                <h2 class="titulo">Portafolio</h2>
-                <div class="galeria-port">
-                    <div class="imagen-port">
-                        <img src="img/im1.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/ondas-sonoras.png" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/im2.jpeg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/ondas-sonoras.png" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/im3.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/ondas-sonoras.png" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/im4.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/ondas-sonoras.png" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/im4.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/ondas-sonoras.png" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/im3.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/ondas-sonoras.png" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/im2.jpeg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/ondas-sonoras.png" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/im1.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/ondas-sonoras.png" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        <section class="cientes_contenedor">
-            <h2 class="titulo">¿Qué dicen nuestros clientes</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="img/face1.webp" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Name</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates temporibus, consequuntur possimus quo porro magnam nihil accusamus dolorem dicta eius amet, optio enim eos! Possimus quam ex minus nobis sapiente!</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="img/face2.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Name</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates temporibus, consequuntur possimus quo porro magnam nihil accusamus dolorem dicta eius amet, optio enim eos! Possimus quam ex minus nobis sapiente!</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <section class="about-services">
-            <div class="contenedor">
-                <h2 class="titulo">Nuestros servicios</h2>
-                <div class="servicio-cont">
-                    <div class="servicio-ind">
-                        <img src="img/serv1.jpg" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorem maxime excepturi ab, deleniti ex aspernatur qui assumenda facere voluptatem, placeat harum? Expedita, libero sunt? Soluta adipisci suscipit vero sit!</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/serv2.jpg" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorem maxime excepturi ab, deleniti ex aspernatur qui assumenda facere voluptatem, placeat harum? Expedita, libero sunt? Soluta adipisci suscipit vero sit!</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/serv3.jpg" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorem maxime excepturi ab, deleniti ex aspernatur qui assumenda facere voluptatem, placeat harum? Expedita, libero sunt? Soluta adipisci suscipit vero sit!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="contenedor-footer">
-            <div class="content-foot">
-                <h4>Phone</h4>
-                <p>5520660029</p>
-            </div>
-            <div class="content-foot">
-                <h4>Email</h4>
-                <p>eduardo43161@outlook.com
-            </div>
-            <div class="content-foot">
-                <h4>Location</h4>
-                <p>Moisés Sáenz 39, Ermita. Del. Benito Juárez. C.P. 03550.</p>
-            </div>
-        </div>
-        <h2 class="titulo-final">&copy; Eduardo Design</h2>
-    </footer>
+	<header>
+		<div class="logo">
+			<img src="./img/descarga.png" alt="Music Store">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Productos</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Bienvenido</h1>
+		<div class="texto">
+			<p>En Music Store nos dedicamos a ofrecer la mejor selección de instrumentos musicales y accesorios para músicos de todas las edades y niveles. Nuestra amplia variedad de productos y nuestro compromiso con la calidad y el servicio al cliente nos han convertido en una de las tiendas de música más populares de la ciudad.</p>
+			<p>Si estás buscando un instrumento nuevo, una pieza de equipo o simplemente un buen consejo, no dudes en visitarnos en nuestra tienda en el centro de la ciudad. ¡Esperamos verte pronto!</p>
+		</div>
+		<div class="redes-sociales">
+			<a href="#"><img src="facebook.png" alt="Facebook"></a>
+			<a href="#"><img src="instagram.png" alt="Instagram"></a>
+		</div>
+		<div class="imagen-tienda">
+			<img src="tienda.png" alt="Music Store" align="right">
+		</div>
+	</main>
 </body>
 </html>
